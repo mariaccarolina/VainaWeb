@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.medidas {
+  border: palegreen solid;
+}
+.medidas p {
+  padding: 10px;
+  text-align: justify;
+  border: palevioletred solid;
+  margin: 5px;
+}
+
+.primeiraSessao_em {
+  background-color: tomato;
+  width: 400px;
+  height: 400px;
+  font-size: 10px;
+}
+.primeiraSessao_em p {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  font-size: 1em;
+}
+
+.segundaSessao_rem {
+  width: 400px;
+  height: 400px;
+  background-color: darkblue;
+  color: white;
+}
+.segundaSessao_rem p {
+  font-size: 1rem;
+  width: 200px;
+  height: 200px;
+  background-color: indigo;
+}
+
+.terceiraSessao_porcetagem {
+  background-color: darkmagenta;
+  width: 400px;
+  height: 400px;
+}
+.terceiraSessao_porcetagem div {
+  width: 100%;
+  height: 50%;
+  background-color: aqua;
+}
+
+.quartaSessao_vwvh {
+  width: 400px;
+  height: 400px;
+  background-color: darkorange;
+}
+.quartaSessao_vwvh div {
+  width: 100vw;
+  height: 100vh;
+  background-color: darkred;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.medidas {
+    border: palegreen solid;
+
+    p {
+        padding: 10px;
+        text-align: justify;
+        border: palevioletred solid;
+        margin: 5px;
+    }
+}
+
+.primeiraSessao_em {
+    background-color: tomato;
+    width: 400px;
+    height: 400px;
+    font-size: 10px;
+
+    //aninhamento:
+    p {
+        width: 200px;
+        height: 200px;
+        background-color: aquamarine;
+        font-size: 1em; //1 em = 20px
+        //em é uma unidade relativa ao tamanho da fonte do elemento pai.
+        // em está diretamente relacionado ao tamanho da fonte do elemento pai
+        //Caso não houver um tamanho de fonte especificado no elemento pai, o navegador normalmente define um tamanho de fonte padrão de 16 pixels, que pode variar entre os navegadores.
+    }
+}
+
+.segundaSessao_rem {
+    width: 400px;
+    height: 400px;
+    background-color: darkblue;
+    color: white;
+
+    //o rem está relacionado com o tamanho da fonte do elemento root (raiz), no caso a tag html. Sabemos que a tag html é a tag raiz de todo documento html
+    p {
+        font-size: 1rem;
+        width: 200px;
+        height: 200px;
+        background-color: indigo;
+    }
+}
+
+// Quando usar em ou rem?
+// em Use quando você deseja que o tamanho de um elemento seja relativo ao seu pai ou a outro contexto local. Isso é útil para componentes que precisam ser escaláveis com base no contexto em que estão inseridos.
+// rem Use quando deseja consistência em todo o site, onde os tamanhos devem ser baseados no tamanho da fonte raiz. É ideal para definir tamanhos globais, como margens, paddings, e tamanhos de fonte.
+
+.terceiraSessao_porcetagem {
+    background-color: darkmagenta;
+    width: 400px;
+    height: 400px;
+
+    //% (percentagem): Relativa ao tamanho do elemento pai.
+    div {
+        width: 100%; //100% dos 400px da sessao(pai dela)
+        height: 50%; //50% dos 400px da sessao
+        background-color: aqua;
+    }
+}
+
+.quartaSessao_vwvh {
+    width: 400px;
+    height: 400px;
+    background-color: darkorange;
+
+    // O viewport é a parte da tela que está sendo exibida. No caso
+    //     dos navegadores web, é o que é exibido na janela/tela do
+    //     documento (toda a tela).
+    // a grande diferença de vw e vh para porcentagem é que a porcentagem ela segue o tamanho definido pela sua caixa pai.
+    div {
+        width: 100vw;
+        height: 100vh;
+        background-color: darkred;
+    }
+}
