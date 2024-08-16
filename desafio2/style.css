@@ -16,7 +16,7 @@ main {
 img {
   border-radius: 50%;
   width: 15%;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 li {
@@ -37,5 +37,5 @@ footer {
   padding-top: 10px;
   background-color: rgb(2, 48, 48);
   color: white;
-  height: 10vh;
+  height: 5vh;
 }/*# sourceMappingURL=style.css.map */
