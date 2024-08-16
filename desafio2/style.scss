@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 211, 222);
+
+}
+
+main {
+    height: 95vh;
+    margin-left: 1.5rem;
+}
+
+img {
+    border-radius: 50%;
+    width: 15%;
+    margin-top: 1.5rem;
+}
+
+
+li {
+    margin-left: 15px;
+}
+
+h2 {
+    color: rgb(2, 48, 48);
+    padding: 10px 0;
+}
+
+p {
+    padding-bottom: 10px;
+   
+}
+
+
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(2, 48, 48);
+    color: white;
+    height: 10vh;
+}
