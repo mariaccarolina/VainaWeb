@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.item {
+  border: solid rgb(4, 110, 4);
+}
+
+.container {
+  border: solid tomato;
+  display: flex;
+  justify-content: center;
+  /* justify-content: flex-start; padrão, alinha no inicio do eixo principal */
+  /* justify-content:flex-end; alinha no final do eixo principal */
+  /* justify-content: center; alinha no meio do eixo principal */
+  /* espaçamento dos itens */
+  /* justify-content:space-between; espaço entre os elementos */
+  /* justify-content: space-around; espaço ao redor dos elementos */
+  /* justify-content: space-evenly; espaço constante (um espaço igual distribuindo os elemntos 
+  iguakmente dentro do container */
+}
+
+.item2 {
+  border: solid palevioletred;
+}
+
+.container2 {
+  border: solid purple;
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  /* align-items:
+  align-items: stretch; esticado, do começo ao fim do eixo 
+  /* align-items:flex-start; coloca os elementos no começo do eixo cruzado (em cima) */
+  /* align-items:flex-end; coloca os elementos no final do eixo cruzado (em baixo)  */
+  /* align-items:center; coloca os elementos no meio do eixo cruzado  */
+}/*# sourceMappingURL=style.css.map */
