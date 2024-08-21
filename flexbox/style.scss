@@ -32,3 +32,20 @@
   /* align-items:flex-end; coloca os elementos no final do eixo cruzado (em baixo)  */
   /* align-items:center; coloca os elementos no meio do eixo cruzado  */
 }
+
+
+.container3{
+  border: solid red;
+  display: flex;
+  //define a direção em que os itens vão se organizar
+  //flex-direction: row; //padrão, todos os item eles iram ficar alinhados no eixo x, horizontal, "em linha", um ao lado do outro
+  //flex-direction: row-reverse;// Os itens são dispostos em uma linha horizontal, mas da direita para a esquerda.
+  flex-direction: column;// alinhados em coluna, um abaixo do outro
+  //flex-direction: column-reverse;// os itens serao alinhados de cima para baixo
+
+
+}
+
+.item3{
+  border: solid rgb(64, 64, 236);
+}

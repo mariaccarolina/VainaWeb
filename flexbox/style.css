@@ -32,4 +32,14 @@
   /* align-items:flex-start; coloca os elementos no começo do eixo cruzado (em cima) */
   /* align-items:flex-end; coloca os elementos no final do eixo cruzado (em baixo)  */
   /* align-items:center; coloca os elementos no meio do eixo cruzado  */
+}
+
+.container3 {
+  border: solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.item3 {
+  border: solid rgb(64, 64, 236);
 }/*# sourceMappingURL=style.css.map */
