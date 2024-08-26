@@ -1,0 +1,64 @@
+*{
+    //reset
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    border: solid mediumvioletred;
+    height: 300px;
+    margin: 10px;
+}
+
+.static{
+    width: 200px;
+    height: 200px;
+    background-color: darkorange;
+    position: static;//padrão
+    // a tag vai se posicionar de acordo com o fluxo padrão, sem nenhuma alteração na sua posição
+}
+
+.relative{
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    position: relative;
+    // A tag/o elemento é posicionado de acordo com o fluxo normal, podendo ser ajustado com as propriedades:
+    //propriedades -> top, right, left e bottom
+    top:20px ;//20px movido/empurrado pra baixo
+    //left: 20px;
+}
+
+.absolute{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    position: absolute;
+    //propriedades -> top, right, left e bottom
+    top: 20px;
+    //right: 0;
+}
+
+.controle{
+   position: relative;
+}
+
+.fixed{
+    background-color: rgb(236, 83, 83);
+    width: 300px;
+    height: 40px;
+    position: fixed;
+    // fixo, faz com que o elemento que recebeu esta propriedade não se mova na tela
+    right: 0;
+    top: 0;
+}
+
+.sticky{
+    background-color: black;
+    color: wheat;
+    position: sticky;
+    //em português significa pegajoso ou colado
+    //fica fixo em relação à tela, ele fica fixo em relação ao rolamento da página.
+    top: 0;
+}

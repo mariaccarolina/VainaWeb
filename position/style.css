@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  border: solid mediumvioletred;
+  height: 300px;
+  margin: 10px;
+}
+
+.static {
+  width: 200px;
+  height: 200px;
+  background-color: darkorange;
+  position: static;
+}
+
+.relative {
+  width: 200px;
+  height: 200px;
+  background-color: darkgreen;
+  position: relative;
+  top: 20px;
+}
+
+.absolute {
+  width: 200px;
+  height: 200px;
+  background-color: darkblue;
+  position: absolute;
+  top: 20px;
+}
+
+.controle {
+  position: relative;
+}
+
+.fixed {
+  background-color: rgb(236, 83, 83);
+  width: 300px;
+  height: 40px;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.sticky {
+  background-color: black;
+  color: wheat;
+  position: sticky;
+  top: 0;
+}/*# sourceMappingURL=style.css.map */
