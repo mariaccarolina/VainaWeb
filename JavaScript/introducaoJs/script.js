@@ -16,7 +16,8 @@ comentário de varias linhas
 // variavel + nome da variavel + = + valor;
 // preferida e podemos reatribuir um valor
 // string "texto"
-//
+
+// não podemos reescrever, mas podemos reatribuir valor:
 let nomeDoAluno = "Luan Vieira";
 nomeDoAluno = "Alexandra";
 nomeDoAluno = "Gislane";
@@ -29,8 +30,9 @@ var facilitador = "Débora";
 facilitador = "Fellipe";
 console.log(facilitador);
 
-// constante não pode ser alterada:
+
 const comida = "Batata";
-//const instrutora =" Carol"
-//instrutora = "José"
+// constante não pode ser alterada:
+//const comida ="maçã"
+//comida = "cuscuz"
 
