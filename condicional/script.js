@@ -73,4 +73,40 @@ if(notaDesafio >= 6) {
     console.log("Reprovado")
 }
 
+// =====================================
 
+// || (or) ou
+// verifica se uma expressao OU a outra é verdadeira!
+
+let eleitor = 62;
+
+if (eleitor <= 16 || eleitor >= 60) {
+  console.log("Seu voto é opcional!");
+} else {
+  console.log("Você deve votar");
+}
+
+//Operadores lógicos:
+
+// && (and) e
+// Retorna verdadeiro se os dois valores forem verdadeiros "um && outro"
+
+// login
+let userName = "@carolina";
+let password = 123456;
+
+if (userName === "@carolina" && password === 123456) {
+  console.log("Login efetuado com sucesso");
+} else {
+  console.log("Senha incorreta! Tente novamente!");
+}
+
+let saldo = 9;
+
+if (saldo >= 200) {
+  console.log("Irei ao Shopping Rio Mar passear com alguem!");
+} else if (saldo >= 100) {
+  console.log("Eu irei sozinho pois estou com pouco saldo bancário!");
+} else if (saldo <= 10) {
+  console.log("Vou ter que ficar em casa!");
+}
